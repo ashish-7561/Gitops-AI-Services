@@ -16,7 +16,9 @@ spec:
     spec:
       containers:
       - name: ai-service
-        # CRITICAL: Replace 'your_docker_username' below with your actual username!
-        image: adhd1245/gitops-ai-service:latest
+      
+        image: adhd1245/gitops-ai-service:latest 
+        
+        imagePullPolicy: Always 
         ports:
         - containerPort: 3000
