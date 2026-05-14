@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.json({
     service: "Gitops-AI-Services",
     status: "Online",
-    message: "AI Agentic Backend is running.",
+    message: "GitOps Pipeline is fully operational!",
     timestamp: new Date().toISOString()
   });
 });
